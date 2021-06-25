@@ -1,0 +1,49 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .test {
+    color: cyan;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .test {
+    color: blue;
+  }
+  /* carousel width is 1300 for desktop */
+}
+
+/* // Large devices (desktops, 992px and up) this also apply to ipad */
+@media (min-width: 992px) {
+  .container {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .test {
+    color: red;
+  }
+
+  .home-carousel {
+    width: 800px;
+  }
+  /* carousel width is 1650 for desktop */
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  .home-carousel {
+    width: 1650px;
+  }
+}
