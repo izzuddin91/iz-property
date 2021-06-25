@@ -11,24 +11,23 @@ export class HomeComponent implements OnInit {
   b : boolean = true
   images = [
 
-    {path: '/assets/a-1.jpeg', height: 1000},
-    {path: '/assets/a-2.jpeg'},
-    {path: '/assets/a-1.jpeg'},
-    {path: '/assets/a-2.jpeg'},
-    {path: '/assets/a-1.jpeg'},
-    {path: '/assets/a-2.jpeg'},
-    {path: '/assets/a-1.jpeg'},
-    {path: '/assets/a-2.jpeg'},
-    {path: '/assets/a-1.jpeg'},
-    {path: '/assets/a-2.jpeg'},
-    {path: '/assets/a-1.jpeg'},
-    {path: '/assets/a-2.jpeg'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-2.jpeg?alt=media&token=e0e0af87-663c-4dc9-9718-f26395f5f28e', height: 1000},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-1.jpeg?alt=media&token=b02158f2-98ce-453b-ad1d-d85912fabe07'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-2.jpeg?alt=media&token=e0e0af87-663c-4dc9-9718-f26395f5f28e'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-1.jpeg?alt=media&token=b02158f2-98ce-453b-ad1d-d85912fabe07'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-2.jpeg?alt=media&token=e0e0af87-663c-4dc9-9718-f26395f5f28e'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-1.jpeg?alt=media&token=b02158f2-98ce-453b-ad1d-d85912fabe07'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-2.jpeg?alt=media&token=e0e0af87-663c-4dc9-9718-f26395f5f28e'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-1.jpeg?alt=media&token=b02158f2-98ce-453b-ad1d-d85912fabe07'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-2.jpeg?alt=media&token=e0e0af87-663c-4dc9-9718-f26395f5f28e'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-1.jpeg?alt=media&token=b02158f2-98ce-453b-ad1d-d85912fabe07'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-2.jpeg?alt=media&token=e0e0af87-663c-4dc9-9718-f26395f5f28e'},
+    {path: 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-1.jpeg?alt=media&token=b02158f2-98ce-453b-ad1d-d85912fabe07'},
 ]
-  image = '/assets/a-1.jpeg'
+  image = 'https://firebasestorage.googleapis.com/v0/b/etiqa-sme-bizcareplus.appspot.com/o/a-2.jpeg?alt=media&token=e0e0af87-663c-4dc9-9718-f26395f5f28e'
 // images: any =  []
   constructor() { 
-    // this.images = ['/assets/a-1.jpeg', '/assets/a-2.jpeg', '/assets/a-1.jpeg', '/assets/a-2.jpeg', '/assets/a-1.jpeg', '/assets/a-2.jpeg' ]
-  }
+}
 
   ngOnInit(): void {
   }
