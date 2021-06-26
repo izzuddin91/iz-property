@@ -34,6 +34,14 @@
     width: 820px;
   }
   /* carousel width is 1650 for desktop */
+
+  .card {
+    margin: 20px;
+    width: 10rem;
+  }
+  h5 {
+    font-size: 11pt;
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -45,5 +53,17 @@
   }
   .home-carousel {
     width: 1650px;
+  }
+
+  #architecture-layout {
+    width: 1650px;
+  }
+
+  .card {
+    margin: 20px;
+    width: 18rem;
+  }
+  h5 {
+    font-size: 11pt;
   }
 }
