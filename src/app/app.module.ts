@@ -7,12 +7,16 @@ import { HomeComponent } from './home/home.component';
 import { ArchitectureComponent } from './architecture/architecture.component';
 import { MediaComponent } from './media/media.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ArchitectureComponent,
-    MediaComponent
+    MediaComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     IvyCarouselModule,

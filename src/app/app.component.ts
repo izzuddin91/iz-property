@@ -13,6 +13,14 @@ export class AppComponent {
 
   }
 
+  aboutPage(){
+    this.router.navigate(['/about'], { state: { updatingUser: false } });
+  }
+
+  contactPage(){
+    this.router.navigate(['/contact'], { state: { updatingUser: false } });
+  }
+
   architecturePage(){
     this.router.navigate(['/architecture'], { state: { updatingUser: false } });
   }
